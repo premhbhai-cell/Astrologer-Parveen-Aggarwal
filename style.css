@@ -206,3 +206,8 @@ html{overflow-x:hidden;width:100%}body{max-width:100vw;position:relative}
  .fl a{width:50px;height:50px}.fl a svg{width:25px;height:25px}
  .simgw{height:175px}
 }
+
+/* Service and process card photographs */
+.sv .simgw{overflow:hidden}
+.sv .simg{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .7s ease}
+.sv:hover .simg{transform:scale(1.07)}
